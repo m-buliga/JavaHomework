@@ -19,7 +19,7 @@ public class MapsExercises {
 
         // obtin valorile elementelor cu metoda .get()
         System.out.println(studenti.get("nume") + " este din orasul " + studenti.get("oras") +".");
-        System.out.println("" + produse.get("produs") + " costa " + produse.get("pret") + ".");
+        System.out.println(produse.get("produs") + " costa " + produse.get("pret") + ".");
 
         // verific daca exista o cheie cu metoda .containsKey()
         System.out.println("Exista cheia 'nume'? - Raspuns: " + studenti.containsKey("nume"));
