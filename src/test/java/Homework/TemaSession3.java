@@ -100,6 +100,9 @@ public class TemaSession3 {
         }
 
 
+        intList.forEach(System.out::println);
+
+
         // "for" pentru String Array List
         for (String str : stringList) {
             if (str.equals("Albastru")) {
@@ -108,10 +111,14 @@ public class TemaSession3 {
             System.out.println("Itereaza prin string array list, opreste iterarea daca valoarea e Albastru si afiseaza valoarea la care ai ajuns: " + str);
         }
 
-        
+        stringList.forEach(System.out::println);
+
+
         // "for" pentru Double Array List
         for (int i = 0; i < doubleList.size(); i++) {
             System.out.println("Itereaza prin toate valorile din double array list si afiseaza-le pe rand: " + doubleList.get(i));
         }
+
+        doubleList.forEach(System.out::println);
     }
 }
